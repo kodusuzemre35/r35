@@ -2,7 +2,7 @@ const playwright = require('playwright');
 const axios = require('axios');
 
 async function scrape(properties, context) {
-    const goToUrl = properties.goToUrl;
+    const goToUrl = "https://aicado.ai";
 
     let htmlResponse = null;
     let errorResponse = null;
